@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIENDA DE ROPA</title>
+
+    <LINK rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <script src="js.js"></script>
+    <script src="jsdos.js"></script>
+    <script src="jstres.js"></script>
+
+
+
+
+
+
+</head>
+
+
+
+<body>
+  
+
+    <header>
+        <H1>
+            <center> <u>SOUTH CROSS</u> </center>
+        </H1>
+        <center><IMg src="LOGO.jpg" width="200" <br><BR><BR>
+
+
+            <!-- BARRA DE NAVEGACION DE BOOSTRAP -->
+
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="organigrama.html">ORGANIGRAMA</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="hombre.html">HOMBRES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="mujer.html">MUJERES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="niños.html">NIÑOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="bebes.html">BEBES</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </center> <br><br><br>
+    </header>
+    <center>
+        <section id="cuerpo"></section>
+        <main>
+            <h2> LA MEJOR ROPA DEPORTIVA DE LA CIUDAD </h2>
+            <IMg src="images.jpg" width="300" <br><br>
+            <h3> <a href="formulario.html"> HACER SU PEDIDO ONLINE</a></h3> <br>
+            <h3> <a href="formulario3.html"> CONSULTAS </a></h3> </a><br><br>
+            
+            <button onclick="gastoEnvio()">CALCULE SU COSTO DE ENVIO</button>
+           <script>function gastoEnvio ()
+
+
+        </script>
+        <script>
+            function gastoEnvio ()
+
+{
+    var km = parseInt(prompt("A cuantos km vive del centro de San Nicolas?"));
+    var gasto = 0
+    gastoEnvio = km + gasto
+    if( gastoEnvio > 40 ) { 
+        window.alert("gasto de envio es $800");	
+      
+        
+        }else { 
+            window.alert("gasto de envio es $0");
+   
+        } }
+        </script>
+        <br><br><br><br><br><br><br>
+        </main>
+        <aside>
+            <h2> RUTINAS DE CROSSFIT </h2>
+            <UL>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=8szBUOMuUX8">ENTRENA EN CASA</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=rmzWeBTC6aM">ENTRENA EN CASA2</a>
+                </li>
+            </UL>
+
+        </aside>
+        </section> <br><br><br><br><br><br><br><br><br><br><BR><BR><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    </center>
+    <footer>
+
+        <center>
+           <P>CREADO POR DIEGO CROCCIA</P> 
+            <p>diego_croccia@hotmail.com</p>
+            <a href="https://wa.me/3364191548?text=¡Estoy+interesado!"><img src="icono.jpg" width="30px">nuestro
+                wahtssap</a>
+
+
+
+    
+
+    </footer>
+
+    <footer class="flooter">
+        <button onclick="otraPagina()">Salir de la Web</button>
+        <script> function  otraPagina(){
+            var confirmar = confirm('Estas Seguro deseas Salir');
+            if (confirmar){
+                window.location.href = ("https://www.google.com");
+                    }
+                    else{
+                        
+                    } }
+                </script>
+    </footer>
+
+</center>
+
+</body>
+
+</html>

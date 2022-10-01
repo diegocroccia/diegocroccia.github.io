@@ -1,0 +1,45 @@
+
+
+body {
+    background-image: url(https://i.blogs.es/ead625/microsoft365_vision-personalizado-/450_1000.webp);
+    background-size: 100%;
+}
+
+header{
+  border-style: solid BLACK 10RX;
+  text-decoration-color: blue;
+}
+
+
+
+
+}
+
+#cuerpo {
+    width: 100%;
+}
+main{
+    width:60%;
+    float: left;
+
+
+}
+    aside {
+       
+        width:40%;
+               float: right;
+               text-align: center;
+               text-decoration-color: black;
+        
+       
+    }
+    .footer{
+        position: absolute;
+        margin-top: 1
+        %;
+        margin-left: 5%;
+     
+    }
+ 
+
+ 
